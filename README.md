@@ -62,8 +62,6 @@ yarn ios or use xcode to run app
 yarn test
 ```
 
-Here’s a clear and concise **approach** for how the Weather App code is structured and how it works—great for documentation, handoff, or planning future enhancements.
-
 ### **Architecture Overview**
 
 ####  Component: `GetWeather`
