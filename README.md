@@ -20,7 +20,13 @@ A simple cross-platform Weather App built using **React Native**, **TypeScript**
 
 ## 📸 Screenshots
 
-![alt text](<Simulator Screenshot - iPhone 15 Pro - 2025-04-15 at 11.16.02.png>)
+![Simulator Screenshot - iPhone 15 Pro - 2025-04-15 at 11 16 02](https://github.com/user-attachments/assets/dfc42793-181b-480f-88e4-a89edc6940c4)
+
+![Simulator Screenshot - iPhone 15 Pro - 2025-04-15 at 11 16 36](https://github.com/user-attachments/assets/392fafed-5d49-4c9b-b495-5796d1413ddc)
+
+![Simulator Screenshot - iPhone 15 Pro - 2025-04-15 at 11 16 53](https://github.com/user-attachments/assets/81881275-ce82-498e-a572-5abe0d2eb0b8)
+
+![Simulator Screenshot - iPhone 15 Pro - 2025-04-15 at 11 16 59](https://github.com/user-attachments/assets/aa1c12f4-f352-4a7e-9c00-79fd60dbb46a)
 
 ---
 
