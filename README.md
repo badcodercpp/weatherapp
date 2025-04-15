@@ -20,7 +20,7 @@ A simple cross-platform Weather App built using **React Native**, **TypeScript**
 
 ## 📸 Screenshots
 
-> _(Add screenshots here if needed — light & dark mode views)_
+![alt text](<Simulator Screenshot - iPhone 15 Pro - 2025-04-15 at 11.16.02.png>)
 
 ---
 
@@ -29,5 +29,29 @@ A simple cross-platform Weather App built using **React Native**, **TypeScript**
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/weather-app.git
-cd weather-app
+git clone https://github.com/badcodercpp/weatherapp.git
+cd weatherapp
+```
+
+### 2. Install Dependency
+
+```bash
+yarn install
+cd ios 
+pod install
+cd ..
+```
+
+### 3. Run app
+
+```bash
+yarn start
+then open new terminal
+yarn ios or use xcode to run app
+```
+
+### 3. Test app
+
+```bash
+yarn test
+```
