@@ -1,24 +1,24 @@
-# 🌤️ Weather App (React Native + TypeScript)
+#  Weather App (React Native + TypeScript)
 
 A simple cross-platform Weather App built using **React Native**, **TypeScript**, and **OpenWeatherMap API**. Supports iOS and Android via **React Native**, includes a **dark theme toggle**, and allows users to fetch weather data for any city.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔍 Search weather by city name
-- 🌡️ Displays:
+-  Search weather by city name
+-  Displays:
   - City name
   - Current temperature
   - Weather condition
   - Weather icon
-- ⚠️ Shows error if city not found
-- 🌙 Light/Dark mode toggle
-- 🔁 Fully functional custom API hook
+-  Shows error if city not found
+-  Light/Dark mode toggle
+-  Fully functional custom API hook
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ![Simulator Screenshot - iPhone 15 Pro - 2025-04-15 at 11 16 02](https://github.com/user-attachments/assets/dfc42793-181b-480f-88e4-a89edc6940c4)
 
@@ -30,7 +30,7 @@ A simple cross-platform Weather App built using **React Native**, **TypeScript**
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repo
 
