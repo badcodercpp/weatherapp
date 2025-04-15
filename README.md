@@ -64,19 +64,6 @@ yarn test
 
 Here’s a clear and concise **approach** for how the Weather App code is structured and how it works—great for documentation, handoff, or planning future enhancements.
 
----
-
-## 🧭 **Approach: React Native Weather App**
-
-### 📌 **Objective**
-Build a simple, cross-platform Weather App using **React Native + TypeScript** that:
-- Fetches weather data from OpenWeatherMap API
-- Supports **light/dark themes**
-- Handles input, loading states, and error cases
-- Works on both iOS and Android
-
----
-
 ### **Architecture Overview**
 
 ####  Component: `GetWeather`
