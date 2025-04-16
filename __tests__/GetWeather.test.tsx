@@ -7,6 +7,8 @@ import { ThemeContext } from '../src/state';
 import { ThemeEnum } from '../src/enums';
 import { WeatherData } from '../src/types/weather';
 
+jest.mock('@react-native-community/netinfo');
+
 jest.mock('react-native-simple-radio-button', () => ({
   __esModule: true,
   default: ({ radio_props, onPress }: any) => {
