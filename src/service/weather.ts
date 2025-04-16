@@ -1,13 +1,19 @@
-const API_KEY = '74437fa048d02f31f0c1d27882a2d231';
+import { UrlUtils } from '../utils/urlUtils';
+import { WeatherData } from '../types/weather';
 
 export class WeatherService {
-    private baseUrl: string = `https://api.openweathermap.org/data/2.5/weather?q=___city___&appid=${API_KEY}&units=metric`;
+    private baseUrl: string = '';
 
-    formatCity(cityName: string) {
+    constructor() {
+        const urlUtil = new UrlUtils();
+        this.baseUrl = urlUtil.buildUrl();
+    }
+
+    formatCity(cityName: string): void {
         this.baseUrl = this.baseUrl.replace('___city___', cityName);
     }
 
-    async callApi() {
+    async callApi(): Promise<WeatherData> {
         const res = await fetch(this.baseUrl);
         const data = await res.json();
         return data;

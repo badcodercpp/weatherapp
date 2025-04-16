@@ -3,6 +3,7 @@ export interface WeatherData {
   main: {
     temp: number;
   };
+  cod: number;
   weather: {
     main: string;
     icon: string;

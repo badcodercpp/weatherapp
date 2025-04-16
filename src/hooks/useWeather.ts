@@ -11,7 +11,7 @@ export function useWeather(setWeatherInStorage: (data: WeatherData) => Promise<v
     const [error, setError] = useState('');
     const [loading, setLoading] = useState(false);
 
-    const fetchWeather = async (city: string) => {
+    const fetchWeather = async (city: string): Promise<void> => {
         if (!city) {
             return;
         }
@@ -35,7 +35,7 @@ export function useWeather(setWeatherInStorage: (data: WeatherData) => Promise<v
         }
     };
 
-    const getWeatherInStorage = async () => {
+    const getWeatherInStorage = async (): Promise<void> => {
         try {
           const value = await AsyncStorage.getItem('my-key-weather');
           if (value) {
